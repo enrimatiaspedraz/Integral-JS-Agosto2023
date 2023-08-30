@@ -1,0 +1,352 @@
+header {
+    background-color: rgba(48, 52, 63, 1);
+    height: 144px;
+    width: 1440px;
+    display: flex;
+   }
+
+nav {
+    display: flex;   
+    align-items: center;
+    width: 1440PX;
+    height: 144PX;
+    justify-content: space-between;
+
+}   
+
+
+ul.headerul li a {
+    text-decoration: none;  
+    color: white;
+    font-size: 20px;
+      
+   }
+
+ul.headerul {
+    margin-right: 110px;
+   }
+
+img.logo {
+    width: 372px;
+    height: 65.19px;
+    margin-left: 110px;
+    
+    
+   }
+  
+
+.headerul {
+    list-style: none;
+    width: 406px;
+    height: 31px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.banner {
+    background-image: url(images/funkos-banner.webp);
+    background-size: cover;
+    height: 388px;
+    width: 1440px;
+    color: white;
+    text-align: left;
+       
+   
+       
+}
+
+
+section.banner h3 {
+    padding-top: 70PX;
+    margin-top: 0;
+    margin-left: 108px;  
+    margin-bottom: 0 
+    
+}
+
+section.banner p {
+    
+    margin-left: 108px;   
+    margin-top:0;
+    margin-bottom: 40px;
+    
+}
+
+
+section.banner a {
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    display: grid;
+    width: 211px;
+    height: 47px;
+    align-items: center;
+    text-align: center;
+    margin-left: 108px;
+      
+}
+
+/* INICIO MARGENES */
+
+section.ultimoslanzamientos{
+    padding: 50px;
+}
+
+section.box1 {
+    padding: 50px;
+}
+
+section.box2 {
+    padding: 50px;
+}
+
+section.box3 {
+    padding: 50px;
+}
+
+/* FIN MARGENES */
+
+
+
+.baby-yoda {
+    height: 600px;
+    width: 600px;
+    float: right;
+}
+
+.vulpix-1 {
+    height: 600px;
+    width: 600px;
+    float: left;
+}
+
+.snape-patronus-1 {
+    height: 600px;
+    width: 600px;
+    float: right;
+}
+
+
+.box1 {
+    height: 600px;
+    width: 1220px;
+}
+.box2 {
+    height: 600px;
+    width: 1220px;
+}
+.box3 {
+    height: 600px;
+    width: 1220px;
+}
+
+section.box1 article {
+    float: left;
+    margin-top: 100px;
+   
+}
+
+section.box2 article {
+    float: right;
+    margin-top: 100px;
+}
+
+section.box3 article {
+    float: left;
+    margin-top: 100px;
+}
+
+main section h3 {
+    font-size: 46px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main section P {
+    font-size: 24px;
+    
+}
+
+main section a {
+    border-radius: 50px;
+    height: 65px; ;
+    width: 291.81px;
+    border: solid;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+hr {
+    background-color: red;
+    height: 3px;
+    width: 600px;
+    
+   
+}
+
+section.box1 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    display: grid;
+    width: 291.81px;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    /* margin-left: ; */
+}
+
+section.box2 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    display: grid;
+    width: 291.81px;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    /* margin-left: ; */
+}
+
+section.box3 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    display: grid;
+    width: 291.81px;
+    height: 65px;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    /* margin-left: ; */
+}
+
+.ultimoslanzamientos {
+    width: 1223px;
+    height: 623px;
+    margin-bottom: 40px; 
+    
+}
+
+section.ultimoslanzamientos ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section.ultimoslanzamientos ul li {
+   
+
+    list-style: none;
+    Width: 359.97px;
+    height: 512px;
+    
+      
+    
+
+}
+
+section.ultimoslanzamientos h2 {
+    font-size: 46px
+}
+
+section.ultimoslanzamientos img {
+
+Width: 359.97px;
+Height: 352px;
+}
+
+section.ultimoslanzamientos ul li p:first-child {
+    font-size: 14px;
+}
+
+section.ultimoslanzamientos ul li p:nth-child(3) {
+    font-size: 16px;
+    }
+
+section.ultimoslanzamientos ul li p:last-child {
+    font-size: 12px;
+    color: rgba(29, 132, 181, 1);
+    font-weight: bolder;
+
+}
+
+footer {
+    width: 1440px;
+    height: 343px;
+    background-color: rgba(48, 52, 63, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+footer ul {
+list-style: none;
+width: 109px;
+height: 86.5px;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between
+
+}
+
+footer img {
+    width: 250px;
+    height: 116.19px;
+   
+}
+
+footer p {
+    align-self: flex-end;
+    
+}
+
+h6 {
+    display: flex;
+    margin: 0;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    width: 96.13px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    align-self: self-end;
+}
+
+article.box4 picture {
+    display: flex;
+    flex-direction: column;
+}
+
+article.box5 picture {
+    display: flex;
+    flex-direction: column;
+}
+
+article.box6 picture {
+    display: flex;
+    flex-direction: column;
+}
